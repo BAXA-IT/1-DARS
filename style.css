@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #F3D7B7;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+ul,li,a{
+    /* HOME */
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #333333;
+list-style: none;
+text-decoration: none;
+}
+
+/*birinchi*/
+
+#bir{
+    background-color: #F3D7B7;
+}
+.sec-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    /* Good coffee is made simply. */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+color: #000000;
+width: 470px;
+
+}
+
+.second-text{
+    /* Start your mornings */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+color: #000000;
+margin: 47px 0;
+width: 460px;
+height: 72px;
+}
+
+.sec-btn button{
+    /* Frame 49 */
+
+/* Auto layout */
+width: 193px;
+height: 51px;
+background: #0A775F;
+border-radius: 100px;
+border: none;
+/* Start your mornings */
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+font-variant: all-small-caps;
+color: #FFFFFF;
+/* Inside auto layout */
+}
+
+.coffee{
+    width: 710px;
+height: 694px;
+}
